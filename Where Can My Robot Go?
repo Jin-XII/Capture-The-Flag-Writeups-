@@ -1,0 +1,21 @@
+Where Can My Robot Go? (EASY)
+
+CTF Platform: CTFLearn
+
+Category: Web Exploitation
+Objective: Find the hidden flag by exploring the robots.txt file.
+
+Approach
+  The hint mentioned “robots,” which typically refers to the robots.txt file. This file, located at the root of a website, instructs web crawlers which directories are allowed or disallowed for indexing.
+
+Steps
+  Navigate to https://ctflearn.com/robots.txt
+
+  The file listed a disallowed directory:
+      - Disallow: /70r3hnanldfspufdsoifnlds.html
+
+Visit the disallowed path:
+      - https://ctflearn.com/__________________.html
+
+Flag
+flag{robots_are_cool} ## Not actual flag ##
