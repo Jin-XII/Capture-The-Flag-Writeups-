@@ -1,0 +1,19 @@
+Rubber Duck (EASY)
+
+CTF Platform: CTFLearn
+
+Category: Steganography
+Objective: Extract a hidden message from an image file.
+
+Approach
+  I was given a .jpg file. Since no visible information was apparent, I used an online steganography tool to inspect hidden data.
+
+Steps
+  Upload the image to StegOnline
+
+  Use the Show Strings option to inspect embedded text data.
+
+  Several strings appeared, one of which contained the flag.
+
+Flag
+flag{rubber_duck_debugging}
